@@ -7,7 +7,7 @@ Ziel ist die **Konsolidierung, Modernisierung und Sicherung der IT-Landschaft** 
 
 ---
 
-## 🚀 Projektziele
+## Projektziele
 
 - Konsolidierung dezentraler Fachverfahren in eine zentrale, API-basierte Plattform
 - Automatisierte Prozessketten für Antragstellung, Prüfung, Freigabe und Archivierung
@@ -18,7 +18,7 @@ Ziel ist die **Konsolidierung, Modernisierung und Sicherung der IT-Landschaft** 
 
 ---
 
-## 📁 Repository-Struktur
+## Repository-Struktur
 
 ```text
 architecture_project/
