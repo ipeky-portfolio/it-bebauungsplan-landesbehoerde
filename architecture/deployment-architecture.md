@@ -73,39 +73,42 @@ Data Warehouse
 
 ---
 
-# Deployment Diagram
-
-Dieses Deployment Diagram zeigt die Architektur des Systems in einer Government Private Cloud Umgebung mit Kubernetes.
-
-```mermaid
 flowchart TB
-
+    User["👤 Bürger / Client"]
+    
     subgraph GPC["Government Private Cloud"]
-
+        LB["Load Balancer"]
         APIGW["API Gateway"]
-
+        
         subgraph K8S["Kubernetes Cluster"]
             DAS["DigitalAntragsService"]
             PS["PrüfService"]
             WS["WorkflowService"]
             NS["NotificationService"]
         end
-
-        DB["Datenbanken"]
-
+        
+        subgraph DBLayer["Datenbank Layer"]
+            DAS_DB["DAS-DB"]
+            PS_DB["PS-DB"]
+            WS_DB["WS-DB"]
+            NS_DB["NS-DB"]
+        end
+        
+        LB --> APIGW
         APIGW --> DAS
         APIGW --> PS
         APIGW --> WS
         APIGW --> NS
-
-        DAS --> DB
-        PS --> DB
-        WS --> DB
-        NS --> DB
-
+        
+        DAS --> DAS_DB
+        PS --> PS_DB
+        WS --> WS_DB
+        NS --> NS_DB
+        
+        WS --> NS
     end
-```
-
+    
+    User --> LB
 
 
 ---
