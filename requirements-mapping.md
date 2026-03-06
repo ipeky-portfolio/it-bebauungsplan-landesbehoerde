@@ -46,11 +46,3 @@ Es dient als **Nachweis für Architektur-, Lösungs- und Governance-Kompetenz**.
 | Prozessmodelle | IST- und SOLL-Prozesse | `process-models/ist-prozesse.md`, `process-models/soll-prozesse.md` |
 
 ---
-
-## 4️⃣ Fazit
-
-Dieses Mapping zeigt:
-
-- **Funktionale Anforderungen** → Services + Prozesse + Applikationen  
-- **Nicht-funktionale Anforderungen** → Security, Datenschutz, Skalierbarkeit, Performance  
-- **Dokumentation & Governance** → Nachvollziehbarkeit, Architekturentscheidungen, Roadmap  
