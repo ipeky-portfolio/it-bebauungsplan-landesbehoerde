@@ -49,4 +49,4 @@ architecture_project/
 
 ---
 
-Dieses Projekt dient Demonstrationszwecken zur Darstellung fundierter ISO-27001-Kenntnisse.
+Dieses Projekt dient Demonstrationszwecken zur Darstellung fundierter Enterprise Architecture Kenntnisse.
