@@ -1,9 +1,7 @@
 # Architecture Governance Model
-## IT-Bebauungsplan – Landesbehörde
+## IT-Bebauungsplan – Behörde Musterstadt
 
-Dieses Dokument beschreibt das Governance-Modell für die Architektursteuerung der IT-Landschaft einer Landesbehörde.
-
-Ziel ist es, eine konsistente, sichere und langfristig wartbare IT-Architektur sicherzustellen.
+Dieses Dokument beschreibt das Governance-Modell für die Architektursteuerung der IT-Landschaft der Behörde Musterstadt. Ziel ist es, eine konsistente, sichere und langfristig wartbare IT-Architektur sicherzustellen.
 
 Das Modell definiert:
 
