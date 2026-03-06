@@ -2,7 +2,7 @@
 
 # Digitale Bürger-Services – IT-Bebauungsplan Landesbehörde
 
-Dieses Repository dokumentiert ein **komplettes Enterprise-Architecture-Beispielprojekt** für eine Landesbehörde.  
+Dieses Repository dokumentiert ein **komplettes Enterprise-Architecture-Beispielprojekt** für eine Behörde Musterstadt.  
 Ziel ist die **Konsolidierung, Modernisierung und Sicherung der IT-Landschaft** unter Berücksichtigung von **Zero Trust, Secure by Design und Privacy by Design**.
 
 ---
