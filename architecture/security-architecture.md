@@ -1,14 +1,14 @@
 # Security Architecture
 
-Dieses Dokument beschreibt die Sicherheitsarchitektur der Plattform.
+Dieses Dokument beschreibt die Sicherheitsarchitektur der Plattform. Die Architektur basiert auf folgenden Sicherheitsprinzipien:
 
-Die Architektur basiert auf:
+* **Zero Trust**
+* **Secure by Design**
+* **Privacy by Design**
+* **BSI-Grundschutz**
+* **DSGVO**
 
-- Zero Trust
-- Secure by Design
-- Privacy by Design
-- BSI-Grundschutz
-- DSGVO
+Diese Prinzipien gewährleisten eine sichere Verarbeitung sensibler Daten innerhalb der Government Private Cloud.
 
 ---
 
@@ -16,85 +16,100 @@ Die Architektur basiert auf:
 
 Grundprinzip:
 
-Never trust – always verify.
+> **Never trust – always verify**
+
+Jeder Zugriff auf Systeme, Services und Daten wird authentifiziert, autorisiert und protokolliert.
 
 ## Maßnahmen
 
-Zentrale Identity Plattform  
-Single Sign-On für alle Anwendungen.
-
-Multi-Faktor-Authentifizierung
-
-Kontinuierliche Authentifizierung
-
-Mikrosegmentierung der Systeme
-
-Policy-basierte Zugriffskontrolle
+* Zentrale **Identity Plattform (IdentityGov)**
+* **Single Sign-On (SSO)** für alle Anwendungen
+* **Multi-Faktor-Authentifizierung (MFA)**
+* **Kontinuierliche Authentifizierung und Session-Validierung**
+* **Mikrosegmentierung der Services innerhalb des Kubernetes Clusters**
+* **Policy-basierte Zugriffskontrolle über das API Gateway**
 
 ---
 
 # Secure by Design
 
-Sicherheit wird in allen Entwicklungsphasen berücksichtigt.
+Sicherheit wird in allen Phasen des Softwareentwicklungsprozesses berücksichtigt.
 
 ## Maßnahmen
 
-Security Anforderungen bereits im Architekturdesign
-
-Code Reviews
-
-Static Application Security Testing (SAST)
-
-Dynamic Security Testing (DAST)
-
-Dependency Scans
-
-CI/CD Security Gates
+* Sicherheitsanforderungen werden bereits im **Architekturdesign** definiert
+* **Code Reviews** für sicherheitsrelevante Änderungen
+* **Static Application Security Testing (SAST)**
+* **Dynamic Application Security Testing (DAST)**
+* **Dependency Scanning** für Drittanbieterbibliotheken
+* **Security Gates in der CI/CD Pipeline**
+* **Container Image Scanning**
 
 ---
 
 # Privacy by Design
 
-Datenschutz wird bereits im Systemdesign umgesetzt.
+Datenschutz wird bereits im Systemdesign berücksichtigt und technisch umgesetzt.
 
 ## Prinzipien
 
-Datensparsamkeit
-
-Zweckbindung
-
-Pseudonymisierung
-
-Verschlüsselung personenbezogener Daten
-
-Minimierte Zugriffsmöglichkeiten
-
-Auditierbarkeit
+* **Datensparsamkeit**
+* **Zweckbindung der Datenverarbeitung**
+* **Pseudonymisierung personenbezogener Daten**
+* **Verschlüsselung sensibler Daten (at rest und in transit)**
+* **Minimierung von Zugriffsrechten (Least Privilege Principle)**
+* **Auditierbarkeit aller Zugriffe**
 
 ---
 
 # Sicherheitskomponenten
 
-IdentityGov  
-Authentifizierung und Autorisierung.
+Die Plattform nutzt mehrere Sicherheitskomponenten zur Absicherung der Architektur.
 
-API Gateway  
-Zugriffskontrolle auf Services.
+## IdentityGov
 
-Security Monitoring  
-SIEM-System zur Erkennung von Sicherheitsvorfällen.
+Zentrale Plattform für:
 
-Logging Plattform  
-Zentrale Speicherung von Audit-Logs.
+* Authentifizierung
+* Autorisierung
+* Multi-Faktor-Authentifizierung
+* Identity Management
 
-Encryption Services  
-Verschlüsselung sensibler Daten.
+## API Gateway
+
+Das API Gateway stellt sicher:
+
+* Zugriffskontrolle auf Microservices
+* Rate Limiting
+* Token Validierung
+* Routing der Anfragen
+
+## Security Monitoring
+
+Ein **SIEM-System** dient zur:
+
+* Erkennung von Sicherheitsvorfällen
+* Analyse von Logs
+* Echtzeitüberwachung der Plattform
+
+## Logging Plattform
+
+* Zentrale Speicherung von **Audit Logs**
+* Nachvollziehbarkeit aller sicherheitsrelevanten Aktionen
+
+## Encryption Services
+
+* Verschlüsselung sensibler Daten
+* Schlüsselverwaltung (Key Management)
 
 ---
 
 # Sicherheitsprozesse
 
-- Incident Response
-- Vulnerability Management
-- Security Monitoring
-- regelmäßige Penetrationstests
+Folgende Prozesse unterstützen den sicheren Betrieb der Plattform:
+
+* **Incident Response**
+* **Vulnerability Management**
+* **Security Monitoring**
+* **Regelmäßige Penetrationstests**
+* **Patch Management**
