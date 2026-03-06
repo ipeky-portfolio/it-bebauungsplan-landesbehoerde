@@ -1,11 +1,10 @@
-# Requirements Mapping – Digitale Bürger-Services Landesbehörde
+# Requirements Mapping – Digitale Bürger-Services Behörde Musterstadt
 
-Dieses Dokument zeigt, **wo im Repository funktionale und nicht-funktionale Anforderungen beschrieben, umgesetzt oder dokumentiert sind**.  
-Es dient als **Nachweis für Architektur-, Lösungs- und Governance-Kompetenz**.
+Dieses Dokument zeigt, wo im Repository funktionale und nicht-funktionale Anforderungen beschrieben, umgesetzt oder dokumentiert sind.  
 
 ---
 
-## 1️⃣ Funktionale Anforderungen
+## Funktionale Anforderungen
 
 | Funktionale Anforderung | Umsetzung / Service | Repository-Datei |
 |-------------------------|------------------|-----------------|
@@ -18,7 +17,7 @@ Es dient als **Nachweis für Architektur-, Lösungs- und Governance-Kompetenz**.
 
 ---
 
-## 2️⃣ Nicht-funktionale Anforderungen
+## Nicht-funktionale Anforderungen
 
 | Nicht-funktionale Anforderung | Umsetzung / Konzept | Repository-Datei |
 |-------------------------------|-------------------|-----------------|
@@ -32,7 +31,7 @@ Es dient als **Nachweis für Architektur-, Lösungs- und Governance-Kompetenz**.
 
 ---
 
-## 3️⃣ Architektur & Lösungsdokumentation
+## Architektur & Lösungsdokumentation
 
 | Artefakt | Zweck | Repository-Datei |
 |----------|-------|-----------------|
