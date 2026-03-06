@@ -1,10 +1,8 @@
 
 # Transformation-Roadmap
-## Digitale Transformation – Roadmap einer Landesbehörde (Beispiel)
+## Digitale Transformation – Roadmap der Behörde Musterstadt
 
-Diese Roadmap beschreibt die schrittweise Transformation der bestehenden IT-Landschaft
-von einer heterogenen, teilweise manuellen Systemlandschaft hin zu einer modernen,
-serviceorientierten und sicheren Zielarchitektur.
+Diese Roadmap beschreibt die schrittweise Transformation der bestehenden IT-Landschaft von einer heterogenen, teilweise manuellen Systemlandschaft hin zu einer modernen, serviceorientierten und sicheren Zielarchitektur.
 
 ---
 
