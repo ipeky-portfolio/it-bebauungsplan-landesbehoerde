@@ -1,11 +1,10 @@
 # Data Architecture – Digitale Bürger-Services
 
-Dieses Dokument beschreibt die Datenarchitektur der Plattform für digitale Bürgerleistungen einer Landesbehörde.
-
-Ziel ist eine konsistente, sichere und nachvollziehbare Datenhaltung unter Berücksichtigung von:
+Dieses Dokument beschreibt die Datenarchitektur der Plattform für digitale Bürgerleistungen der Behörde Musterstadt. Ziel ist eine konsistente, sichere und nachvollziehbare Datenhaltung unter Berücksichtigung von:
 
 - DSGVO
 - BSI-Grundschutz
+- Secure by Design
 - Privacy by Design
 - Data Governance
 
