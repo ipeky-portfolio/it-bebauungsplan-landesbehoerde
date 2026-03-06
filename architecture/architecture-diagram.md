@@ -1,6 +1,6 @@
 # Architecture Diagram
 
-## Overview
+## Ziel
 
 Dieses Dokument beschreibt das grundlegende Architekturdiagramm der Anwendung. Es zeigt die wichtigsten Komponenten und deren Beziehungen.
 
