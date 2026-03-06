@@ -1,12 +1,12 @@
 # Application Architecture
 
-## Purpose
+## Zweck
 
 Dieses Dokument beschreibt die interne Architektur der Anwendung und die Struktur der wichtigsten Module.
 
 ## Architecture Style
 
-Die Anwendung folgt einer **modularen, serviceorientierten Architektur** mit klar getrennten Verantwortlichkeiten.
+Die Anwendung folgt einer modularen, serviceorientierten Architektur mit klar getrennten Verantwortlichkeiten.
 
 Hauptprinzipien:
 
@@ -118,14 +118,14 @@ src/
 
 ## Dependency Rule
 
-Die Abhängigkeiten dürfen **nur nach innen zeigen**:
+Die Abhängigkeiten dürfen nur nach innen zeigen:
 
 ```
 Presentation → Application → Domain
 Infrastructure → Domain
 ```
 
-Die Domain-Schicht darf **keine Abhängigkeiten zu äußeren Schichten** besitzen.
+Die Domain-Schicht darf keine Abhängigkeiten zu äußeren Schichten besitzen.
 
 ---
 
