@@ -46,3 +46,5 @@ architecture_project/
 │
 └─ roadmap/
     └─ transformation-roadmap.md         # Umsetzung & Roadmap
+---
+Dieses Projekt dient Demonstrationszwecken zur Darstellung fundierter ISO-27001-Kenntnisse.
