@@ -1,17 +1,15 @@
 # C4 Model – Architekturübersicht
 
-Dieses Dokument beschreibt die Architektur mit dem C4 Modell.
+Dieses Dokument beschreibt die Architektur mit dem C4 Modell. Das C4 Modell besteht aus vier Ebenen:
 
-Das C4 Modell besteht aus vier Ebenen:
-
-1 Context
+1 Systemkontext
 2 Container
-3 Component
+3 Komponente
 4 Code
 
 ---
 
-# Level 1 – Context
+# Level 1 – Kontext
 
 System:
 
@@ -52,7 +50,7 @@ Persistente Speicherung.
 
 ---
 
-# Level 3 – Components
+# Level 3 – Komponente
 
 Innerhalb der Application Services existieren mehrere Komponenten.
 
