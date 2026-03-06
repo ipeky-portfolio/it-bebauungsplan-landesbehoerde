@@ -1,7 +1,6 @@
 
-# architecture-decisions.md
 # Architecture Decision Records (ADR)
-Beispielhafte Architekturentscheidungen für eine digitale Plattform einer Landesbehörde.
+Beispielhafte Architekturentscheidungen für eine digitale Plattform der Behörde Musterstadt.
 
 ---
 
