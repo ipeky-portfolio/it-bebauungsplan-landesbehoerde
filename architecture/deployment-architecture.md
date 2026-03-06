@@ -74,27 +74,38 @@ Data Warehouse
 ---
 
 # Deployment Diagram
-+-------------------------------+
-| Government Private Cloud |
-| |
-| +-------------------------+ |
-| | Kubernetes Cluster | |
-| | | |
-| | DigitalAntragsService | |
-| | PrüfService | |
-| | WorkflowService | |
-| | NotificationService | |
-| +-------------------------+ |
-| |
-| +-------------------------+ |
-| | API Gateway | |
-| +-------------------------+ |
-| |
-| +-------------------------+ |
-| | Datenbanken | |
-| +-------------------------+ |
-| |
-+-------------------------------+
+
+Dieses Deployment Diagram zeigt die Architektur des Systems in einer Government Private Cloud Umgebung mit Kubernetes.
+
+```mermaid
+flowchart TB
+
+    subgraph GPC["Government Private Cloud"]
+
+        APIGW["API Gateway"]
+
+        subgraph K8S["Kubernetes Cluster"]
+            DAS["DigitalAntragsService"]
+            PS["PrüfService"]
+            WS["WorkflowService"]
+            NS["NotificationService"]
+        end
+
+        DB["Datenbanken"]
+
+        APIGW --> DAS
+        APIGW --> PS
+        APIGW --> WS
+        APIGW --> NS
+
+        DAS --> DB
+        PS --> DB
+        WS --> DB
+        NS --> DB
+
+    end
+```
+
 
 
 ---
