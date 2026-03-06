@@ -1,9 +1,9 @@
 <img width="1536" height="1024" alt="Architektur Diagramm" src="https://github.com/user-attachments/assets/6c5f66ee-b645-4f50-9924-a58daef7073b" />
 
-# Digitale Bürger-Services – IT-Bebauungsplan Landesbehörde
+# Digitale Bürger-Services – IT-Bebauungsplan Behörde Musterstad
 
-Dieses Repository dokumentiert ein **komplettes Enterprise-Architecture-Beispielprojekt** für eine Behörde Musterstadt.  
-Ziel ist die **Konsolidierung, Modernisierung und Sicherung der IT-Landschaft** unter Berücksichtigung von **Zero Trust, Secure by Design und Privacy by Design**.
+Dieses Repository dokumentiert ein komplettes Enterprise-Architecture-Mockup-Projekt für die Behörde Musterstadt.  
+Ziel ist die Konsolidierung, Modernisierung und Sicherung der IT-Landschaft unter Berücksichtigung von Zero Trust, Secure by Design und Privacy by Design.
 
 ---
 
@@ -13,7 +13,7 @@ Ziel ist die **Konsolidierung, Modernisierung und Sicherung der IT-Landschaft** 
 - Automatisierte Prozessketten für Antragstellung, Prüfung, Freigabe und Archivierung
 - Zentrale Identity- und Access-Management-Lösung (SSO, MFA)
 - Einhaltung von BSI-Grundschutz, DSGVO und Barrierefreiheit
-- Einführung von Zero Trust- und Secure/Privacy by Design-Prinzipien
+- Einführung von Zero Trust- und Secure by Design- sowie Privacy by Design-Prinzipien
 - Monitoring, Reporting und Auditierbarkeit
 
 ---
