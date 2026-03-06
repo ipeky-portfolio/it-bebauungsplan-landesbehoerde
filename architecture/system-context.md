@@ -28,7 +28,7 @@ Sachbearbeiter nutzen das System zur:
 
 ---
 
-## Abteilungsleitung
+## Abteilungsleitung bzw. Gesamptbetriebsleiter
 
 Die Leitung nutzt die Plattform für:
 
