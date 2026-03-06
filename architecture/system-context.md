@@ -1,6 +1,6 @@
 # System Context – Digitale Bürger-Services Plattform
 
-Dieses Dokument beschreibt den Kontext der Plattform innerhalb der Landesbehörde und deren Interaktion mit externen und internen Akteuren.
+Dieses Dokument beschreibt den Kontext der Plattform innerhalb der Behörde Musterstadt und deren Interaktion mit externen und internen Akteuren.
 
 Das Ziel des System Context Diagrams ist es, die wichtigsten Benutzer und externen Systeme darzustellen.
 
