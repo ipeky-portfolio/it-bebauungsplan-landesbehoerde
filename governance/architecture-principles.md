@@ -1,5 +1,5 @@
 # Architecture Principles
-## IT-Bebauungsplan – Landesbehörde
+## IT-Bebauungsplan – Behörde Musterstadt
 
 Dieses Dokument definiert die grundlegenden Architekturprinzipien für die IT-Landschaft der Behörde.
 
