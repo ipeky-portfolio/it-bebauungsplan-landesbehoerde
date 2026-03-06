@@ -2,8 +2,7 @@
 
 ## Overview
 
-Dieses Dokument beschreibt das grundlegende Architekturdiagramm der Anwendung.
-Es zeigt die wichtigsten Komponenten und deren Beziehungen.
+Dieses Dokument beschreibt das grundlegende Architekturdiagramm der Anwendung. Es zeigt die wichtigsten Komponenten und deren Beziehungen.
 
 ## High-Level Architecture
 
@@ -81,7 +80,7 @@ flowchart TD
 * **Cache** – Performance-Optimierung
 * **Object Storage** – Dateien, Uploads, Assets
 
-## Goals
+## Ziele
 
 * klare Trennung der Schichten
 * skalierbare Services
