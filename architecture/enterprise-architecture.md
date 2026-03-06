@@ -1,6 +1,6 @@
 # Enterprise Architecture – Digitale Bürger-Services
 
-Dieses Dokument beschreibt die Enterprise Architecture der Zielplattform für digitale Bürgerleistungen einer Landesbehörde.
+Dieses Dokument beschreibt die Enterprise Architektur der Zielplattform für digitale Bürgerleistungen der Behörde Musterstadt.
 
 Die Architektur orientiert sich an gängigen Frameworks wie:
 
