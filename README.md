@@ -31,7 +31,11 @@ architecture_project/
 │   ├─ application-architecture.md       # Applikationsarchitektur
 │   ├─ data-architecture.md              # Datenarchitektur
 │   └─ security-architecture.md          # Sicherheits- & Privacy-Architektur
-│
+│   ├─ c4-model.md                       # C4 Model
+│   ├─ ddeployment-architecture.md       # Deploymentarchitektur
+│   └─ enterprise-architecture.md        # Enterprise Architecture
+│   └─ system-context.md                 # System Context
+│ 
 ├─ governance/
 │   ├─ architecture-governance.md        # Governance-Modell, Board, Prozesse
 │   └─ architecture-principles.md        # Architekturprinzipien (15+)
@@ -43,6 +47,7 @@ architecture_project/
 ├─ process-models/
 │   ├─ ist-prozesse.md                   # IST-Prozesse der Behörde
 │   └─ soll-prozesse.md                  # SOLL-Prozesse / Zielprozesse
+│   └─ architecture-decisions.md         # Entscheidungsgrundlagen
 │
 └─ roadmap/
     └─ transformation-roadmap.md         # Umsetzung & Roadmap
