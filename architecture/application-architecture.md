@@ -129,7 +129,7 @@ Die Domain-Schicht darf keine Abhängigkeiten zu äußeren Schichten besitzen.
 
 ---
 
-## Benefits
+## Vorteile
 
 * klare Struktur
 * bessere Wartbarkeit
