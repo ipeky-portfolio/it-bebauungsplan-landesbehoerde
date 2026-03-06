@@ -1,8 +1,6 @@
 # System Context – Digitale Bürger-Services Plattform
 
-Dieses Dokument beschreibt den Kontext der Plattform innerhalb der Behörde Musterstadt und deren Interaktion mit externen und internen Akteuren.
-
-Das Ziel des System Context Diagrams ist es, die wichtigsten Benutzer und externen Systeme darzustellen.
+Dieses Dokument beschreibt den Kontext der Plattform innerhalb der Behörde Musterstadt und deren Interaktion mit externen und internen Akteuren. Das Ziel des System Context Diagrams ist es, die wichtigsten Benutzer und externen Systeme darzustellen.
 
 ---
 
@@ -78,18 +76,58 @@ Versand von Statusmeldungen und Bescheiden.
 ---
 
 # System Context Diagram
-    Bürger
-       |
-       v
-       +----------------------------+
-| Digitale Bürgerplattform |
-+----------------------------+
-| | |
-v v v
-Sachbearbeiter DMS Identity Provider
-|
-v
-Abteilungsleitung
+
+Dieses Diagramm zeigt den Systemkontext der **Digitalen Bürgerplattform** und die wichtigsten Akteure sowie angebundenen Systeme.
+
+```mermaid
+flowchart TB
+
+    Bürger["Bürger"]
+
+    subgraph Plattform["Digitale Bürgerplattform"]
+        Portal["Antrags- & Serviceportal"]
+    end
+
+    Sachbearbeiter["Sachbearbeiter"]
+    Leitung["Abteilungsleitung bzw. Gesamtbetriebsleiter"]
+    DMS["Dokumentenmanagementsystem (DMS)"]
+    IdP["Identity Provider"]
+
+    Bürger --> Portal
+
+    Portal --> Sachbearbeiter
+    Portal --> DMS
+    Portal --> IdP
+
+    Sachbearbeiter --> Leitung
+```
+
+## Beschreibung
+
+**Bürger**
+
+* Reichen Anträge über die Digitale Bürgerplattform ein.
+
+**Digitale Bürgerplattform**
+
+* Zentrales System zur Bearbeitung digitaler Verwaltungsleistungen.
+
+**Sachbearbeiter**
+
+* Prüfen und bearbeiten eingereichte Anträge.
+
+**Abteilungsleitung/Gesamtbetriebsleiter**
+
+* Trifft Entscheidungen bei komplexen oder genehmigungspflichtigen Fällen.
+
+**DMS**
+
+* Speichert Dokumente und Antragsunterlagen.
+
+**Identity Provider**
+
+* Zuständig für Authentifizierung und Identitätsmanagement (z. B. SSO, MFA).
+
 
 ---
 
